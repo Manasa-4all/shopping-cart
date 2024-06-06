@@ -1,0 +1,22 @@
+<div class="navbar bg-primary">
+    <div class="navbar-container align-item:center d-flex">
+        <i class="bi bi-truck" style="font-size:35px">
+            <strong style="font-size:25px">Flipkart</strong>
+        </i>
+        <div class="searchbar">
+            <input type="text" class="search-bar1" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            <i class="bi bi-search search-icon"></i>
+            
+        </div>
+
+    </div>
+   
+        <button routerLink="cart" class="btn btn-primary">
+            <i class="bi bi-cart-plus-fill" style="font-size:30px"></i>
+            <div class="badge bg-danger">{{totalitem}}</div>
+
+        </button>
+   
+   
+
+</div>

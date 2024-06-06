@@ -1,0 +1,14 @@
+
+.search-bar1{
+       width:600px;
+       border: 1px solid black;
+       margin-left: 30px;
+       align-items: center;
+       margin-top: 10px;
+}
+.search-icon{
+    position: relative;
+    z-index:0;
+    right:10%;
+    color:blue;
+}
